@@ -1,0 +1,17 @@
+﻿<Window x:Class="LAB_3_WPF.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LAB_3_WPF"
+        mc:Ignorable="d"
+        Title="Window1" Height="200" Width="420">
+    <Grid>
+        <Label Content="Правила:" Margin="160,10,0,0" VerticalAlignment="Top" FontSize="16" HorizontalAlignment="Left" Width="80"/>
+        <TextBlock Margin="10,50,0,0" TextWrapping="Wrap" Text="Вы увидите планарный граф. Вам нужно его плоско уложить (чтобы не пересекались рёбра)." VerticalAlignment="Top" Height="70" Width="400" FontSize="16" HorizontalAlignment="Left"/>
+        <Button Content="S T A R T" HorizontalAlignment="Left" Margin="275,127,0,0" VerticalAlignment="Top" FontSize="16" Width="80" Click="Button_Click"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,127,0,0" TextWrapping="Wrap" Text="8" VerticalAlignment="Top" Width="120" FontSize="16" Height="25" Name="textBox"/>
+        <Label Content="Кол-во вершин: " HorizontalAlignment="Left" Margin="44,127,0,0" VerticalAlignment="Top" Height="25"/>
+
+    </Grid>
+</Window>

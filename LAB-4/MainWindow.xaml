@@ -1,0 +1,12 @@
+﻿<Window x:Class="LAB_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LAB_4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="900" Width="900" Name="mainWin">
+    <Grid Name="grid">
+        <Button Content="П Р О В Е Р К А" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="40" Width="100" Name="check_btn" Click="check_btn_Click"/>
+    </Grid>
+</Window>
